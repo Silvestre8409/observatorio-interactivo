@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Observatorio Estratégico de Estudios de Futuro</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="menu.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div class="dashboard">
+    <nav>
+      <h1 class="logo">Observatorio</h1>
+      <ul id="main-menu"></ul>
+    </nav>
+    <main>
+      <header>
+        <h2>Clasificación de los Datos por Sectores</h2>
+      </header>
+      <section id="contenido">
+        <div class="info-cards">
+          <div class="card"><h3>Total de Entidades</h3><p>19</p></div>
+          <div class="card"><h3>Vigilancia 2024</h3><p>25 procesos</p></div>
+          <div class="card"><h3>Control 2024</h3><p>18 procesos</p></div>
+        </div>
+        <div class="chart-section">
+          <h3>Visualización de ejemplo</h3>
+          <canvas id="graficoEjemplo" width="400" height="300"></canvas>
+        </div>
+      </section>
+    </main>
+  </div>
+  <script src="menu.js"></script>
+</body>
+</html>
